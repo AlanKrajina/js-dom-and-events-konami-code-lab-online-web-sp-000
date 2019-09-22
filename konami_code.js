@@ -3,8 +3,7 @@ let index = 0;
 
 function init() {
 
-  let bod = document.getElementsByTagName("body")[0]
-  bod.addEventListener('keydown', function(e){
+  document.body.addEventListener('keydown', function(e){
 
 
     const key = parseInt(e.detail || e.which);
