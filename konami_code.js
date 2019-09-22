@@ -3,6 +3,7 @@ let index = 0;
 
 function init() {
 
+  let bod = document.getElementsByTagName("body")[0]
   document.body.addEventListener('keydown', function(e){
 
 
