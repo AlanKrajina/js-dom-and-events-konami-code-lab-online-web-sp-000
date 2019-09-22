@@ -4,7 +4,7 @@ let index = 0;
 function init() {
 
   let bod = document.getElementsByTagName("body")[0]
-  document.body.addEventListener('keydown', function(e){
+  bod.addEventListener('keydown', function(e){
 
 
     const key = parseInt(e.detail || e.which);
